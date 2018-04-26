@@ -86,8 +86,6 @@ url = [
 #        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201734RT&doc=UMAC_201734RT_RMT",
 
        # Shenghai's deal list
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201323&doc=SMLT_201323_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201323RT&doc=SMLT_201323RT_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143&doc=SMLT_20143_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143RT&doc=SMLT_20143RT_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20145&doc=SMLT_20145_RMT",
@@ -112,10 +110,6 @@ url = [
        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201632RT&doc=UMAC_201632RT_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=NMLT&seriesId=20151&doc=NMLT_20151_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=NMLT&seriesId=20151RT&doc=NMLT_20151RT_RMT",
-#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201732&doc=UMAC_201732_RMT",
-#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201732RT&doc=UMAC_201732RT_RMT",
-#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201733&doc=UMAC_201733_RMT",
-#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201733RT&doc=UMAC_201733RT_RMT",
     ]
 
 ###############################################################################
@@ -158,7 +152,7 @@ def wells_scraper():
         username = driver.find_element_by_id("userId")
         password = driver.find_element_by_id("password")
         username.send_keys("brianfilips")
-        password.send_keys("Suite82218#")
+        password.send_keys("Suite82218!")
         login_attempt = driver.find_element_by_xpath("//*[@type='submit' and @name='btnSignon']")
         login_attempt.submit()
 
@@ -182,21 +176,21 @@ def wells_scraper():
                 if "AHMI" in file_name1:
                     # 20054 and 20072 deals file is going to mutiple places
                     if (int(web_dealname[-2:]) == 54) or (int(web_dealname[-2:]) == 72):
-                        dealname = web_dealname[0:4] + "-" + web_dealname[4:]
+                        dealname = "{}-{}".format(web_dealname[0:4], web_dealname[4:])
                     else:
-                        dealname = "AHMIT" + web_dealname[-3:]
+                        dealname = "AHMIT{}".format(web_dealname[-3:])
 
                 # ALL HOMEBANC naming convention is HMB + LAST 2-DIGIT OF THE DEALNAME NAME
                 elif "HOMEBANC" in file_name1:
-                    dealname = "HMB" + web_dealname[-2:]
+                    dealname = "HMB{}".format(web_dealname[-2:])
 
                 # For Carrington deals
                 else:
                     if web_dealname[-2:] == 'RT':
                         if len(web_dealname) == 8:
-                            dealname = web_dealname[0:4] + "-" + web_dealname[4:6]
+                            dealname = "{}-{}".format(web_dealname[0:4], web_dealname[4:6])
                         else:
-                            dealname = web_dealname[0:4] + "-0" + web_dealname[4:5]
+                            dealname = "{}-0{}".format(web_dealname[0:4], web_dealname[4:5])
                     else:
                         if len(web_dealname) == 6:
                             dealname = web_dealname[0:4] + "-" + web_dealname[4:6]

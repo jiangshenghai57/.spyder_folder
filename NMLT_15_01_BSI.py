@@ -43,7 +43,7 @@ def remove_nan(_list_):
 # More features could be add in to ask user                                                             #
 #########################################################################################################
 global dist_date
-dist_date = "1802"
+dist_date = "1803"
 def user_input():
     print("What period would you like to roll the payment for Normandy \n" + 
           "If you want a specific month and year, \n")
