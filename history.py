@@ -1641,3 +1641,1113 @@ string2 = "some string3"
 "".join(string, string1, string2)
 debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
 debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import ppf
+
+## ---(Tue Mar 27 14:36:00 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Tue Mar 27 15:36:53 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Tue Mar 27 17:26:57 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Tue Mar 27 17:31:53 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/sehnghai_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Wed Mar 28 10:41:04 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+my_deals = {
+                # My deals
+                '2013-23': 'D:/deals/Carrington/SMAC/2013-23/',
+#                '2014-03': 'D:/deals/Carrington/SMAC/2014-03/',
+#                '2014-05': 'D:/deals/Carrington/SMAC/2014-05/',
+#                '2015-01': 'D:/deals/Carrington/SMAC/2015-01/',
+#                '2015-08': 'D:/deals/Carrington/SMAC/2015-08/',
+#                '2015-09': 'D:/deals/Carrington/SMAC/2015-09/',
+#                '2016-01': 'D:/deals/Carrington/SMAC/2016-01/',
+#                '2016-04': 'D:/deals/Carrington/SMAC/2016-04/',
+#                '2016-21': 'D:/deals/Carrington/SMAC/2016-21/',
+#                '2016-23': 'D:/deals/Carrington/SMAC/2016-23/',
+#                '2016-31': 'D:/deals/Carrington/SMAC/2016-31/',
+#                '2016-32': 'D:/deals/Carrington/SMAC/2016-32/',
+
+                # Brian's deals
+#                '2013-20': 'D:/deals/Carrington/SMAC/2013-20/',
+#                '2013-21': 'D:/deals/Carrington/SMAC/2013-21/',
+#                '2014-01': 'D:/deals/Carrington/SMAC/2014-01/',
+#                '2014-04': 'D:/deals/Carrington/SMAC/2014-04/',
+#                '2015-03': 'D:/deals/Carrington/SMAC/2015-03/',
+#                '2015-04': 'D:/deals/Carrington/SMAC/2015-04/',
+#                '2015-05': 'D:/deals/Carrington/SMAC/2015-05/',
+#                '2015-07': 'D:/deals/Carrington/SMAC/2015-07/',
+#                '2016-05': 'D:/deals/Carrington/SMAC/2016-05/',
+#                '2016-06': 'D:/deals/Carrington/SMAC/2016-06/',
+#                '2016-07': 'D:/deals/Carrington/SMAC/2016-07/',
+#                '2016-08': 'D:/deals/Carrington/SMAC/2016-08/',
+#                '2016-09': 'D:/deals/Carrington/SMAC/2016-09/',
+#                '2016-10': 'D:/deals/Carrington/SMAC/2016-10/',
+#                '2016-11': 'D:/deals/Carrington/SMAC/2016-11/',
+#                '2016-12': 'D:/deals/Carrington/SMAC/2016-12/',
+#                '2017-01': 'D:/deals/Carrington/SMAC/2017-01/',
+#                '2017-02': 'D:/deals/Carrington/SMAC/2017-02/',
+#                '2017-03': 'D:/deals/Carrington/SMAC/2017-03/',
+#                '2017-04': 'D:/deals/Carrington/SMAC/2017-04/',
+#                '2017-05': 'D:/deals/Carrington/SMAC/2017-05/',
+#                '2017-06': 'D:/deals/Carrington/SMAC/2017-06/',
+#                '2017-09': 'D:/deals/Carrington/SMAC/2017-09/',
+#                '2017-21': 'D:/deals/Carrington/SMAC/2017-21/',
+#                '2017-31': 'D:/deals/Carrington/SMAC/2017-31/',
+#                '2017-32': 'D:/deals/Carrington/SMAC/2017-32/',
+#                '2017-33': 'D:/deals/Carrington/SMAC/2017-33/',
+#                '2017-34': 'D:/deals/Carrington/SMAC/2017-34/',
+                }
+                
+my_deals[1]
+my_deals[0]
+my_deals
+my_deals['2013-23']
+
+## ---(Thu Mar 29 12:04:02 2018)---
+from dbfread import DBF
+for record in DBF("D:/deals/remictax/append.dbf")
+for record in DBF("D:/deals/remictax/append.dbf"):
+    print(record)
+    
+table = DBF("D:/deals/remictax/append.dbf", load=True)
+print(table.record[1]['SUBDIR']
+
+print(table.record[1]['SUBDIR'])
+print(table.recordS[1]['SUBDIR'])
+print(table.records[1]['SUBDIR'])
+print(table.records[0]['SUBDIR'])
+len(table)
+table = DBF("D:/deals/remictax/deallist.dbf", load=True)
+len(table)
+for record in table:
+    print(record)
+    
+for record in table:
+    print(table.records[record]['DEALNAME'])
+    
+for record in table:
+    print(table.records[table.index(record)]['DEALNAME'])
+for i in range(0, len(table)):
+    print(table.records[i]['DEALNAME'])
+for i in range(0, len(table)):
+    print(table.records[i]['DEALNAME'] + " " + table.records[i]['FULLNAME'])
+records = list(DBF("D:/deals/remictax/deallist.dbf", load=True))
+records
+records[1]
+records[1][0]
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import quantdsl
+for i in range(0, len(table)):
+    print(table.records[i]['DEALNAME'] + " " + table.records[i]['FULLNAME'] + " " + table.records[i]['SUBDIR'])
+for i in range(0, len(table)):
+    print(table.records[i]['DEALNAME'] + ", " + table.records[i]['FULLNAME'] + ", " + table.records[i]['SUBDIR'])
+dir_ex = "D:\\deals\\remictax\\"
+dir_ex
+dir_ex = "D:\deals\remictax\"
+dir_ex = "D:\deals\remictax\\"
+dir_ex
+dir_ex = "D:" + r"\deals" + r"\remictax" + r"\"
+dir_ex = "D:" + r"\deals" + r"\remictax" + r'\'
+dir_ex = "D:" + r'\deals' + r'\remictax' + r'\'
+dir_ex = "D:\\deals\\remictax\\"
+dir_ex
+dir_ex = "D:\deals\remictax\\"
+dir_ex
+dir_ex = r'd:\deals\remitax\'
+table = DBF("D:\deals\Carrington\SMAC\2013-23\S1323050.cld")
+table = DBF("D:\\deals\\Carrington\\SMAC\\2013-23\\S1323050.cld")
+table = DBF("D:\\deals\\Carrington\\SMAC\\2013-23\\S1323050.DBF")
+help(DBF)
+table = DBF("d:/deals/remictax/deallist.dbf")
+table = DBF("d:/deals/remictax/deallist.dbf", load=True)
+help(DBF.records)
+help(dbfread)
+import dbfread
+helP(dbfread)
+help(dbfread)
+table.records[0][0]
+table.records[0]["DEAL_NAME"]
+table.records[0]["DEAL_NME"]
+table.records[0]["SUBDIR"]
+table
+list(table)
+table[0]
+table = DBF("d:/deals/remictax/deallist.dbf", load=True)
+table = list(DBF("d:/deals/remictax/deallist.dbf", load=True))
+table[0]
+table.columns
+table[0][:]
+table[0]["EXP_TYPE"]
+help(list)
+table.index()
+table.__contains__
+table = DBF("d:/deals/remictax/deallist.dbf", load=True)
+import pandas
+table = DataFrame(iter(table))
+import pandas.DataFrame
+from pandas import DataFrame
+table = DataFrame(iter(table))
+table = DBF("d:/deals/remictax/deallist.dbf")
+table = DataFrame(iter(table))
+table
+table = DBF("d:/deals/remictax/deallist.dbf", load=True)
+table[1]
+table.records[1]
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+zero = "0.00"
+zero
+float(zero)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+bool(0)
+bool(1)
+bool(2)
+bool(-1)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+num = 1
+num += num
+num
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+from date import datetime
+from datetime import datetime
+help(date.strptime)
+help(datetime.strptime)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+help(datetime.strptime())
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+source = 10
+def pass_ref(source)
+def pass_ref(source):
+    source -= 5
+    print("source reduced")
+source
+pass_ref(source)
+source
+source = pass_ref(source)
+source
+def pass_ref(source):
+    source -= 5
+    print("source reduced")
+    return source
+
+source = 10
+source
+pass_ref(source)
+source
+source = pass_ref(source)
+source
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+
+## ---(Mon Apr  2 09:50:44 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/bond_set_routine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/waterfall.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+var
+help()
+dir()
+closea
+restart
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/BondSetRoutine.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/DealSpecificVariables.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+import quantdsl
+from quantdsl import *
+from qunatdsl.lib.powerplant2
+from qunatdsl.lib.powerplant2 import PowerPlant
+from quantdsl.lib.powerplant2 import PowerPlant
+import qfrm
+from qfrm import *
+pip install qfrm
+help(qfrm)
+import qfrm
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_BSI.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_RM.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/access_deallist_record.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+chr(12)
+chr(120)
+chr(121)
+chr(221)
+chr(200)
+chr(185)
+help(compile)
+dir()
+exit()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model/SF181000.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_consumer_loan_waterfall_model')
+dir()
+deal_dict
+deal_path
+memoryview
+memoryview()
+lst = range(0, 10)
+lst
+lst = list(range(0, 10))
+lst
+reversed(lst)
+lst = reversed(lst)
+lst
+set(lst)
+slice(lst)
+string = "This a example string to be worked on!!!"
+string
+string.parse()
+parse(string)
+  
+import os
+os.ctermid()
+os.environ
+os.environb
+os.getcwd()
+os.fspath()
+os.fspath("d:/deals/remictas/append.dbf")
+os.getlogin()
+os.getpgid()
+os.getpid()
+os.uname()
+os.unsetenv()
+class MyClass:
+    i = 123
+    
+class MyClass:
+    i = 123
+    
+x = MyClass()
+x.i
+class MyClass:
+    i = 123
+    def f(self):
+        return "Good-Bye World".title()
+    
+x = MyClass()
+x.f()
+help(lambda)
+help(lambda())
+help(lambda:)
+from ftplib import FTP
+help(FTP)
+source = 12323.123
+def pay_int(source)
+def pay_int(due, source):
+    source -= due 
+    return source
+source
+pay_int(1000, source)
+source
+source[0]= source
+
+## ---(Wed Apr  4 14:38:38 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+from sklearn import datasets
+iris = datasets.load_iris()
+degits = datasets.load_digits()
+iris
+print(iris.data)
+print(digits.data)
+digits = datasets.load_digits()
+print(digits.data)
+digits.target
+digits.images[0]
+digits.images[1]
+digits.images[-1]
+len(digits.images)
+import pdb
+help(pdb)
+from sklearn import svm
+digits.images[0]
+iris
+iris.data
+clf = svm.SVC(gamma=0.001, C=100.)
+clf.fit(digits.data[:-1], digits.target[:-1])
+clf.predict(digits.dat[-1:])
+clf.predict(digits.data[-1:])
+digits.image[-1]
+digits.images[-1]
+import this
+from math import *
+math.log?
+import random
+from numpy import *
+I = 100000
+z = random.standard_normal(I)
+z
+z
+z
+z
+
+len(z)
+z
+z
+
+
+z
+z
+z = random.standard_normal(I)
+z
+S0 = 100.
+K = 105
+T = 1.0
+r = 0.05
+sigma = 0.2
+ST = S0 * exp((r - 05 * simga ** 2) * T + sigma * sqrt(T) *z)
+ST = S0 * exp((r - 0.5 * simga ** 2) * T + sigma * sqrt(T) *z)
+ST = S0 * exp((r - 0.5 * sigma ** 2) * T + sigma * sqrt(T) *z)
+st
+ST
+hT = maximum(ST - K, 0)
+C0 = EXP(-R * T) * sum(hT) / I
+C0 = exp(-R * T) * sum(hT) / I
+C0 = exp(-r * T) * sum(hT) / I
+CO
+C0
+C0 = exp(-r * T) * sum(hT) / I
+C0
+z = random.standard_normal(I)
+C0 = exp(-r * T) * sum(hT) / I
+C0
+Z
+z
+z = random.standard_normal(I)
+z
+C0 = exp(-r * T) * sum(hT) / I
+C0
+ST = S0 * exp((r - 0.5 * sigma ** 2) * T + sigma * sqrt(T) *z)
+C0 = exp(-r * T) * sum(hT) / I
+import numpy as np
+import pandas as pd
+import pands.io.data as web
+import pandas.io.data as web
+import panda-datareader as web
+from pandas import datareader as web
+from pandas import pandas-datareader as web
+import pandas-datareader as web
+from pandas_datareader import * as web
+from pandas_datareader import *
+from pandas_datareader import data
+exit
+exit()
+exit
+import pandas_datareader.data as web
+import datatime
+import datetime
+goog = web.Datareader('GOOG', 'google', start='3/14/2009', end='4/14/2014')
+goog = web.DataReader('GOOG', 'google', start='3/14/2009', end='4/14/2014')
+goog = web.DataReader('GOOG', 'yahoo', start='3/14/2009', end='4/14/2014')
+goog = web.DataReader('GOOG', 'morningstar', start='3/14/2009', end='4/14/2014')
+goog
+goog.loc['2014-03-31']
+goog.head()
+goog = web.DataReader('F', 'morningstar', start='3/14/2009', end='4/14/2014')
+f = web.DataReader('F', 'morningstar', start='3/14/2009', end='4/14/2014')
+f.head()
+f = web.DataReader('F', 'morningstar', start='2/9/2015', end='5/24/2017')
+f.head()
+goog
+goog = web.DataReader('GOOG', 'morningstar', start='3/14/2009', end='4/14/2014')
+goog
+goog.tail()
+goog['Close']
+goog.columns
+goog.index
+goog['Log_Ret'] = np.log(goog['Close'] / goog['Close'].shift(1))
+import numpy as np
+goog['Log_Ret'] = np.log(goog['Close'] / goog['Close'].shift(1))
+goog['Volatility'] = pd.rolling_std([goog['Log_Ret'],window=252 * np.sqrt(252))
+
+
+goog['Volatility'] = pd.rolling_std([goog['Log_Ret'],window=252) * np.sqrt(252)
+
+goog['Volatility'] = pd.rolling_std(goog['Log_Ret'],window=252) * np.sqrt(252)
+import pandas as pd
+goog['Volatility'] = pd.rolling_std(goog['Log_Ret'],window=252) * np.sqrt(252)
+goog['Volatility'] = pd.Series.rolling(goog['Log_Ret'],window=252) * np.sqrt(252)
+goog['Volatility'] = pd.rolling_std(goog['Log_Ret'],window=252) * np.sqrt(252)
+goog.head()
+%matplotlib inline
+goog['Volatility'] = pd.Series.rolling(goog['Log_Ret'],window=252) * np.sqrt(252)
+help(pd.Series.rolling)
+goog['Volatility'] = goog['Log_Ret'].rolling(window=252) * np.sqrt(252)
+goog['Volatility'] = goog['Log_Ret'].rolling(window=252).sum() * np.sqrt(252)
+goog.head()
+goog.tail()
+goog['Volatility'] = goog['Log_Ret'].rolling(window=252, freq=1).sum() * np.sqrt(252)
+goog['Volatility'] = goog['Log_Ret'].rolling(window=252, min_periods=1).sum() * np.sqrt(252)
+goog.head()
+goog['GOOG', '2014-03-28']
+goog.loc['GOOG', '2014-03-28']
+dat = goog.loc['GOOG', '2014-03-28']
+dat
+for thing in dat:
+    print(thing)
+    
+type(dat)
+goog.[['Close', 'Volatility']]
+goog[['Close', 'Volatility']]
+goog[['Close', 'Volatility']].plot(subplots=True, color ='blue', figsize =(8, 6))
+goog = web.DataReader('GOOG', 'morningstar', start='3/14/2009', end='4/14/2014')
+goog.head()
+goog = web.DataReader('GOOG', 'iex', start='3/14/2009', end='4/14/2014')
+goog = web.DataReader('GOOG', 'robinhood', start='3/14/2009', end='4/14/2014')
+goog.head()
+goog = web.DataReader('GOOG', 'iex', datetime('3/14/2009)', datetime('4/14/2014'))
+
+goog = web.DataReader('GOOG', 'iex', datetime('3/14/2009'), datetime('4/14/2014'))
+goog = web.DataReader('GOOG', 'morningstar', datetime('3/14/2009'), datetime('4/14/2014'))
+goog = web.DataReader('GOOG', 'morningstar', datetime(2009, 3, 14), datetime(2014, 4, 14))
+goog = web.DataReader('GOOG', 'morningstar', start=datetime(2009, 3, 14), end=datetime(2014, 4, 14))
+start = datetime(2009, 3, 14)
+import datetime
+goog = web.DataReader('GOOG', 'morningstar', start=datetime(2009, 3, 14), end=datetime(2014, 4, 14))
+datetime
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import pdfquery
+help(pdfquery)
+help(pdfquery.pdfquery)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+print("D:\\deals\\Carrington\\SMAC\\2013-23\\Reports\\SMLT1323-16-Binder.pdf")
+help(pdf.pq)
+help(pdfquery.PDFQuery.pq)
+help(pdfquery.PDFQuery)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pdfquery.PDFQuery.pq.atrr)
+help(pdfquery.PDFQuery)
+help(pdfquery.PDFQuery.load)
+help(pdfquery.PDFQuery.load.pq)
+help(pdfquery.PDFQuery.load)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pdfquery)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+from pdfquery import pdfquery
+help(pdfquery)
+from PyPDF2
+from PyPDF2 import PdfFileReader
+from PyPDF2 import PdfFileReader as pdfr
+help(pdfr)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+dir()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+pdfw
+type(pdfw)
+help(pdfw)
+pdfr
+help(pdfr)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pdfr)
+help(pdfr.getPage())
+help(pdfr.getPage)
+help(pdfr.getPage.extractText)
+help(pdfr.getPage.attr)
+help(pdfr.getPage)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdf_scrapping.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import PDFMiner
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import pdfquery
+help(pdfqeury.PDFQuery)
+help(pdfquery.PDFQuery)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+from pdfquery import *
+help(pq)
+help(pdfquery.pq)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pdfquery.load.pq)
+help(pdfquery.PDFQuery.load.pq)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pyquery)
+help(pdfquery.pyquery)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+from pdfquery.cache import FileCache
+import query
+import pdfquery
+import sys
+pdfquery.PDFQuery("D:\\deals\\Carrington\\SMAC\\2013-23\\Reports\\SMLT1323-16-Binder.pdf", parse_tree_cacher=FileCache()"/tmp/")
+pdfquery.PDFQuery("D:\\deals\\Carrington\\SMAC\\2013-23\\Reports\\SMLT1323-16-Binder.pdf", parse_tree_cacher=FileCache("/tmp/"))
+pdf = pdfquery.PDFQuery("D:\\deals\\Carrington\\SMAC\\2013-23\\Reports\\SMLT1323-16-Binder.pdf", parse_tree_cacher=FileCache("/tmp/"))
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+pdf = pdfquery.PDFQuery("D:\\deals\\Carrington\\SMAC\\2013-23\\Reports\\SMLT1323-16-Binder.pdf", parse_tree_cacher=FileCache("/tmp/"))
+lable = pdf.qp('LTTextLineHorizontal:contains("cols. (a) through (f)")')
+eixt
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/pdfquery_template_2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Thu Apr 12 15:23:40 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/CLUB_scrub/club_remit_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/CLUB_scrub')
+
+## ---(Fri Apr 13 09:01:09 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/CLUB_scrub/club_remit_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/CLUB_scrub')
+
+## ---(Wed Apr 18 10:04:10 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/brian_wells_stmts_scraper_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Wed Apr 18 11:24:01 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Thu Apr 19 16:54:50 2018)---
+def func_a():
+    print("Exercise function")
+b=func_a()
+b
+b = func_a()
+b
+b.func_a()
+b()
+b
+exit
+def make_greeting(title, name, surname, formal=True):
+    if formal:
+        return "Hello %s % s!" % (title, surname)
+    
+def make_greeting(title, name, surname, formal=True):
+    if formal:
+        return "Hello %s % s!" % (title, surname)
+    return  "Hello, %s!" % name
+print(make_greeting("Ms.", "Heather", "SomeLastName")
+
+print(make_greeting("Ms.", "Heather", "SomeLastName"))
+print(make_greeting("Ms.", "Heather", "SomeLastName", formal = False))
+print(make_greeting("Ms.", "Heather", "SomeLastName"))
+def test_var_args(f_arg, *argv):
+    print ("first normal arg:", f_arg)
+    for arg in argv:
+        print ("another arg through *argv :", arg)
+        
+test_var_args('yasoob', 'python', 'eggs', 'test')
+test_var_args('yasoob', 'python', 'eggs', 'test', 'more', 'more2', 'more3', 'more4', 'more5')
+test_var_args('yasoob', 'python', 'eggs', 'test', 'more', 'more2', 'more3', 'more4', 'more5', 'more6')
+b()
+def func_a()
+def func_a():
+    print('You know what it is')
+    
+b = func_a()
+b()
+b = func_a
+b()
+import this
+from math import *
+log(1)
+from numpy import random
+from numpy import maximum
+maximum(9, 10)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/stochastic_process.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/european_ption_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+import pandas.io.data
+from pandas_datareader import data, wb
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from datatime import datetime
+from datetime import datetime
+datetime(2015, 2, 9)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+goog.index()
+goog.columns
+goog.index
+goog[:][:]
+goog['2014-03-27'][:]
+goog['Date'][:]
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+goog.index
+goog.columns
+goog['Close']
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+%timeit
+%timeit 2+2
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/advantages_of_numpy_array.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+np.arange(1, 10)
+for i in np.arange(1, 10:
+    print(i)
+
+for i in np.arange(1, 10):
+    print(i)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+%timeit for i in range(1, 10):
+%timeit
+for i in range(0, 1000):
+    %timeit print(i)
+    
+for i in range(1, 10):
+    %timeit print(i)
+    
+for i in range(0, 100):
+    print(i)
+exit
+import numpy as np
+a = linesapce(0, 10, 25)
+a = linespace(0, 10, 25)
+a = linspace(0, 10, 25)
+a = np.linspace(0, 10, 25)
+a
+b = np.sin(a)
+plot(a, b, "ro")
+%time np.sin(np.arange(1000000))
+%timeit np.sin(np.arange(1000000))
+%time np.sin(np.arange(1000000))
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+my_deals = {
+                # My deals
+                '2014-03': 'D:/deals/Carrington/SMAC/2014-03/',
+                '2014-05': 'D:/deals/Carrington/SMAC/2014-05/',
+                '2015-01': 'D:/deals/Carrington/SMAC/2015-01/',
+                '2015-08': 'D:/deals/Carrington/SMAC/2015-08/',
+                '2015-09': 'D:/deals/Carrington/SMAC/2015-09/',
+                '2016-01': 'D:/deals/Carrington/SMAC/2016-01/',
+                '2016-04': 'D:/deals/Carrington/SMAC/2016-04/',
+                '2016-21': 'D:/deals/Carrington/SMAC/2016-21/',
+                '2016-23': 'D:/deals/Carrington/SMAC/2016-23/',
+                '2016-31': 'D:/deals/Carrington/SMAC/2016-31/',
+                '2016-32': 'D:/deals/Carrington/SMAC/2016-32/',
+
+                # Brian's deals
+#                '2013-20': 'D:/deals/Carrington/SMAC/2013-20/',
+#                '2013-21': 'D:/deals/Carrington/SMAC/2013-21/',
+#                '2014-01': 'D:/deals/Carrington/SMAC/2014-01/',
+#                '2014-04': 'D:/deals/Carrington/SMAC/2014-04/',
+#                '2015-03': 'D:/deals/Carrington/SMAC/2015-03/',
+#                '2015-04': 'D:/deals/Carrington/SMAC/2015-04/',
+#                '2015-05': 'D:/deals/Carrington/SMAC/2015-05/',
+#                '2015-07': 'D:/deals/Carrington/SMAC/2015-07/',
+#                '2016-05': 'D:/deals/Carrington/SMAC/2016-05/',
+#                '2016-06': 'D:/deals/Carrington/SMAC/2016-06/',
+#                '2016-07': 'D:/deals/Carrington/SMAC/2016-07/',
+#                '2016-08': 'D:/deals/Carrington/SMAC/2016-08/',
+#                '2016-09': 'D:/deals/Carrington/SMAC/2016-09/',
+#                '2016-10': 'D:/deals/Carrington/SMAC/2016-10/',
+#                '2016-11': 'D:/deals/Carrington/SMAC/2016-11/',
+#                '2016-12': 'D:/deals/Carrington/SMAC/2016-12/',
+#                '2017-01': 'D:/deals/Carrington/SMAC/2017-01/',
+#                '2017-02': 'D:/deals/Carrington/SMAC/2017-02/',
+#                '2017-03': 'D:/deals/Carrington/SMAC/2017-03/',
+#                '2017-04': 'D:/deals/Carrington/SMAC/2017-04/',
+#                '2017-05': 'D:/deals/Carrington/SMAC/2017-05/',
+#                '2017-06': 'D:/deals/Carrington/SMAC/2017-06/',
+#                '2017-09': 'D:/deals/Carrington/SMAC/2017-09/',
+#                '2017-21': 'D:/deals/Carrington/SMAC/2017-21/',
+#                '2017-31': 'D:/deals/Carrington/SMAC/2017-31/',
+#                '2017-32': 'D:/deals/Carrington/SMAC/2017-32/',
+#                '2017-33': 'D:/deals/Carrington/SMAC/2017-33/',
+#                '2017-34': 'D:/deals/Carrington/SMAC/2017-34/',
+                }
+my_deals.keys()
+%time for deal in my_deals.keys():
+for deal in my_deals.keys():
+    %time print(deal)
+    
+for deal in my_deals.keys():
+    %timeit print(deal)
+my_deals = {
+                # My deals
+                '2014-03': 'D:/deals/Carrington/SMAC/2014-03/',
+                '2014-05': 'D:/deals/Carrington/SMAC/2014-05/',
+                '2015-01': 'D:/deals/Carrington/SMAC/2015-01/',
+                '2015-08': 'D:/deals/Carrington/SMAC/2015-08/',
+                '2015-09': 'D:/deals/Carrington/SMAC/2015-09/',
+                '2016-01': 'D:/deals/Carrington/SMAC/2016-01/',
+                '2016-04': 'D:/deals/Carrington/SMAC/2016-04/',
+                '2016-21': 'D:/deals/Carrington/SMAC/2016-21/',
+                '2016-23': 'D:/deals/Carrington/SMAC/2016-23/',
+                '2016-31': 'D:/deals/Carrington/SMAC/2016-31/',
+                '2016-32': 'D:/deals/Carrington/SMAC/2016-32/',
+
+                # Brian's deals
+#                '2013-20': 'D:/deals/Carrington/SMAC/2013-20/',
+#                '2013-21': 'D:/deals/Carrington/SMAC/2013-21/',
+#                '2014-01': 'D:/deals/Carrington/SMAC/2014-01/',
+#                '2014-04': 'D:/deals/Carrington/SMAC/2014-04/',
+#                '2015-03': 'D:/deals/Carrington/SMAC/2015-03/',
+#                '2015-04': 'D:/deals/Carrington/SMAC/2015-04/',
+#                '2015-05': 'D:/deals/Carrington/SMAC/2015-05/',
+#                '2015-07': 'D:/deals/Carrington/SMAC/2015-07/',
+#                '2016-05': 'D:/deals/Carrington/SMAC/2016-05/',
+#                '2016-06': 'D:/deals/Carrington/SMAC/2016-06/',
+#                '2016-07': 'D:/deals/Carrington/SMAC/2016-07/',
+#                '2016-08': 'D:/deals/Carrington/SMAC/2016-08/',
+#                '2016-09': 'D:/deals/Carrington/SMAC/2016-09/',
+#                '2016-10': 'D:/deals/Carrington/SMAC/2016-10/',
+#                '2016-11': 'D:/deals/Carrington/SMAC/2016-11/',
+#                '2016-12': 'D:/deals/Carrington/SMAC/2016-12/',
+#                '2017-01': 'D:/deals/Carrington/SMAC/2017-01/',
+#                '2017-02': 'D:/deals/Carrington/SMAC/2017-02/',
+#                '2017-03': 'D:/deals/Carrington/SMAC/2017-03/',
+#                '2017-04': 'D:/deals/Carrington/SMAC/2017-04/',
+#                '2017-05': 'D:/deals/Carrington/SMAC/2017-05/',
+#                '2017-06': 'D:/deals/Carrington/SMAC/2017-06/',
+#                '2017-09': 'D:/deals/Carrington/SMAC/2017-09/',
+#                '2017-21': 'D:/deals/Carrington/SMAC/2017-21/',
+#                '2017-31': 'D:/deals/Carrington/SMAC/2017-31/',
+#                '2017-32': 'D:/deals/Carrington/SMAC/2017-32/',
+#                '2017-33': 'D:/deals/Carrington/SMAC/2017-33/',
+#                '2017-34': 'D:/deals/Carrington/SMAC/2017-34/',
+                }
+for deal in my_deals:
+    %time print(deal)
+    
+for deal in my_deals.keys():
+    %time print(deal)
+import numpy as np
+np.array(my_deals.keys())
+range_deal = np.array(my_deals.keys())
+for deal in range_deal:
+    %time print(deal)
+    
+for deal in range_deal:
+    
+    print(deal)
+range_deal = np.array(list(my_deals.keys()))
+for deal in range_deal:
+    
+    print(deal)
+for deal in range_deal:
+    %time print(deal)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+num = [0.123123, 0.23423, 0.12341, 1.345345]
+num
+for n in num:
+    num[num.index(n)] = round(n, 2)
+    
+num
+num = [0.123123, 0.23423, 0.12341, 1.345345]
+map(round(2), num)
+num = map(round(2), num)
+num
+num = map(round(,2), num)
+print(map(round(2), num))
+num
+num = [0.123123, 0.23423, 0.12341, 1.345345]
+num = list(map(round(2),num))
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+from scipy import stats
+help(stas.norm)
+help(stats.norm)
+stats.norm.cdf(0.34, 0.0, 1.0)
+stats.norm.cdf(-0.12, 0.0, 1.0)
+stats.norm.cdf(0, 0.0, 1.0)
+stats.norm.cdf(45, 0.0, 1.0)
+stats.norm.cdf(2.58, 0.0, 1.0)
+stats.norm.cdf(2.96, 0.0, 1.0)
+stats.norm.cdf(1.68, 0.0, 1.0)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_call_value.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from math import log, sqrt, exp
+from scipy import stats
+
+def bsm_call_value(S0, K, T, r, sigma):
+    S0 = float(S0)
+    d1 = (log(S0 / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
+    d2 = (log(S0 / K) + (r - 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
+    value = (S0 * stats.norm.cdf(d1, 0.0, 1,0) - K * exp(-r * T) * stats.norm.cdf(d2, 0.0, 1.0))
+    
+    return value
+
+bsm_call_value(50, 60, 1.2, 0.0156, 0.3)
+bsm_call_value(50.0, 60, 1.2, 0.0156, 0.3)
+from math import log, sqrt, exp
+from scipy import stats
+def bsm_call_value(S0, K, T, r, sigma):
+    S0 = float(S0)
+    d1 = (log(S0 / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
+    d2 = (log(S0 / K) + (r - 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
+    value = (S0 * stats.norm.cdf(d1, 0.0, 1,0) - K * exp(-r * T) * stats.norm.cdf(d2, 0.0, 1.0))
+    
+    return value
+bsm_call_value(50, 55, 1.0, 0.01, 0.3)
+pandas
+import pandas as pd
+help(pd.HDFStore)
+pd.HDFStore('./source/vstoxx_data_31032014.h5', 'r')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+help(pandas.datareader)
+import pandas_datareader
+help(pandas_datareader)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+help(pandas_datareader)
+import pandas_dataread as pdr
+import pandas_datareader as pdr
+help(pandas_datareader)
+pdr.Options("GOOG", 'morningstar')
+pdr.Options("GOOG", 'google')
+pdr.Options("GOOG", 'yahoo')
+pdr.Options("GOOG", 'fred')
+help(pdr)
+from wallstreet import Stock, Call, Put
+Stock('google').price
+Stock('goog').price
+Stock('AAPL').price
+Stock('AAPL')
+help(Stock)
+s = Stock('AAPL')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/historic_stock_data.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+import quandl
+help(qunadl)
+help(quandl)
+help(quandl.get)
+mydata = quandl.get('FRED/GDP', start_date="2001-12-31", end_date="2005-12-31")
+mydata
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/quandl_library_features.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from bsm_functions import bsm_call_value
+bsm_call_value(100.0, 105.0, 1.0, 0.05, 0.2)
+from bsm_functions import bsm_call_value
+bsm_call_value(100.0, 105.0, 1.0, 0.05, 0.2)
+from time import time
+from math import exp, sqrt, log
+from random import gauss, seed
+
+help(seed)
+seed(1)
+print(seed(1))
+print(seed(1)0)
+print(seed(10))
+range(50)
+print(range(50))
+help(gauss)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_pure_python.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from time import time
+from math import exp, sqrt, log
+from random import gauss, seed
+help(random)
+help(gauss)
+help(seed)
+bsm_call_value(100, 105, 1.0, 0.01)
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105, 1.0, 0.01)
+bsm_call_value(100, 105, 1.0, 0.01, 0.2)
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105, 1.0, 0.01, 0.2)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105, 1.0, 0.01, 0.2)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+call = bsm_call_value
+call(100, 105, 1.0, 0.01, 0.3)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105, 1.0, 0.01, 0.2)
+bsm_call_value(100, 105.0, 1.0, 0.01, 0.2)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+bsm_call_value(100, 105.0, 1.0, 0.01, 0.2)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105.0, 1.0, 0.01, 0.2)
+bsm_call_value(100, 105.0)
+bsm_call_value(100, 105.0, 1.0)
+bsm_call_value(100, 105.0, 1.0, 0.05)
+bsm_call_value(100, 105.0, 1.0, 0.05, 0.4)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/bsm_functions.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+from bsm_functions import bsm_call_value
+bsm_call_value(100, 105.0, 1.0, 0.05, 0.4)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_pure_python.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_vectro_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+for i in range(10):
+    print(i)
+    
+import numpy as np
+for i in np.arrange(10):
+    print(i)
+    
+for i in np.arange(10):
+    print(i)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_vectro_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_pure_python.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_vectro_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+help(np.zeroes)
+help(np.zeros)
+np.zero((2, 2))
+np.zeros((2, 2))
+np.zeros((50, 250000))
+np.zeros((2, 1))
+S = np.zeros((50, 250000))
+S[0] = 100
+S
+S[0][0]
+S[0][0] = 101
+S
+S[0] = 100
+S
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_vectro_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+S.shape
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_full_vector_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance/mcs_vector_numpy.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/OReilly_python_for_finance')
+np.array("sdfasdf", 12454653.213, 23212)
+random_tings = list("sdfasdf", 12454653.213, 23212)
+random_tings = ["sdfasdf", 12454653.213, 23212]
+np.array(random_things)
+np.array(random_tings)
+help(numpy.cumsum)
+import numpy
+help(numpy.cumsum)
+from dbfpy import dbf
+from dbfpy import *
+help(dbfpy)
+from dbf import *
+help(dbf)
+from dbf import *
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/write_dbf_dbfpy_test.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/write_dbf_dbfpy_test.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/write_dbf_dbfpy_test.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+zip?
+import pandas
+pandas?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+np.ppmt?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+set(np.ppmt(0.05/12, 360, 360, 100000))
+snp.ppmt(0.05/12, 360, 360, 100000)
+np.ppmt(0.05/12, 360, 360, 100000)
+pmt = np.ppmt(0.05/12, 360, 360, 100000)
+pmt
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+type(pmt)
+:
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/CONSTANTS.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+np.ppmt?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+np.ppmt?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+exit
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+date?
+pd.date_range?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+pd.date_range?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+pd.date_range?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import pands_datareader as pdr
+import pandas_datareader as pdr
+import datetime
+aapl = pdr.get_data_yahoo('AAPL', start=datetime.datetime(2006, 10, 1), 
+                          end=datetime.datetime(2012, 1, 1))
+pandas_datareader?
+pdr?
+help(pdr)
+aapl = pdr.get_data_google
+('AAPL', start=datetime.datetime(2006, 10, 1), 
+                          end=datetime.datetime(2012, 1, 1))
+aapl = pdr.get_data_google
+('AAPL', start=datetime(2006, 10, 1), 
+                          end=datetime.datetime(2012, 1, 1))
+aapl = pdr.get_data_google
+('AAPL', datetime(2006, 10, 1), 
+                          end=datetime.datetime(2012, 1, 1))
+aapl = pdr.get_data_google
+('AAPL', datetime(2006, 10, 1), 
+                          datetime.datetime(2012, 1, 1))
+pdr.get_data_google?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+np.pmg?
+np.pmt?
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
