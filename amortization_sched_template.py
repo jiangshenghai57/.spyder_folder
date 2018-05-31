@@ -27,7 +27,7 @@ import numpy as np
 from datetime import date
 
 wac = 0.0988
-years = 30
+years = 7
 payments_year = 12
 principal = 850005960.82
 closing_date = (date(2018, 2, 2))
@@ -36,12 +36,12 @@ init_int_prd = 30
 yr_convent = 360
 mo_convent = 30
 PSA = 1.00
-CPR = 0.10
+CPR = 0.1
 
 
 
 # Calculating first interest payment, it will vary depends on the initial interst period
-first_int = wac * principal * init_int_prd / yr_convent 
+first_int = wac * principal * init_int_prd / yr_convent
 
 rng = pd.date_range(start_date, periods=years * payments_year + ONE, freq='MS')
 rng.name = 'payment_date'
@@ -75,18 +75,18 @@ for i in np.arange(ZERO, cap_period):
         SMM = ONE - (ONE - CPR * PSA * (i / THIRTY)) ** (ONE/TWELVE)
         df.loc[i, 'interest'] = df.loc[i - ONE, 'Balance'] * wac / payments_year
         pre_pmt = (df.loc[i - ONE, 'Balance'] - (pmt - df.loc[i, 'interest'])) * SMM
-        df.loc[i, 'principal'] = pmt - df.loc[i, 'interest'] + pre_pmt
+        df.loc[i, 'principal'] = min(df.loc[i - ONE, 'Balance'], pmt - df.loc[i, 'interest'] + pre_pmt)
         df.loc[i, 'Balance'] = df.loc[i - ONE, 'Balance'] - df.loc[i, 'principal']
     else:
         pmt = -round(np.pmt(wac/payments_year, years*payments_year - i + ONE, df.loc[i - ONE, 'Balance']) ,TWO)
         SMM = ONE - (ONE - CPR * PSA) ** (ONE/TWELVE)
         df.loc[i, 'interest'] = df.loc[i - ONE, 'Balance'] * wac / payments_year
         pre_pmt = (df.loc[i - ONE, 'Balance'] - (pmt - df.loc[i, 'interest'])) * SMM
-        df.loc[i, 'principal'] = pmt - df.loc[i, 'interest'] + pre_pmt
+        df.loc[i, 'principal'] = min(df.loc[i - ONE, 'Balance'], pmt - df.loc[i, 'interest'] + pre_pmt)
         df.loc[i, 'Balance'] = df.loc[i - ONE, 'Balance'] - df.loc[i, 'principal']
 
 # If projected month, all these should set to zero
-for i in np.arange(ZERO, cap_period):  
+for i in np.arange(ZERO, cap_period):
     df.loc[:, 'Net-PPIS'] = ZERO_F
     df.loc[:, 'Fresh Cils'] = ZERO_F
     df.loc[:, 'Cils Paid'] = ZERO_F
@@ -106,8 +106,9 @@ for i in np.arange(cap_period):
         df = df.drop(i)
 
 print(df)
+`
 
-if float(df['Balance'].iloc[-ONE]) != ZERO_F:  
+if float(df['Balance'].iloc[-ONE]) != ZERO_F:
     print("WARNING, the bond does not pay down to zero, the end bal is %d", df['Balance'].iloc[-ONE])
 else:
     pass
