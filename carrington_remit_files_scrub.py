@@ -126,10 +126,10 @@ def scrub_carr():
     range_deal = np.array(list(my_deals.keys()))
 
     for deal in range_deal:
-        t0 = time()
+
         # Outter lvl exception handling if one deal does not go well,
         # it will go to the next deal
-        try:
+#        try:
             path = my_deals[deal]
             remit_path = "{}/remit/".format(path)
 
@@ -439,7 +439,8 @@ def scrub_carr():
                     break
                 else:
                     deal_name = None
-
+            
+            '''
             if is_empty(deal_name) == False:
                 dat = open('{}{}_{}.dat'.format(remit_path, deal_name, dist_date), 'w+')
             else:
@@ -450,6 +451,7 @@ def scrub_carr():
             # Create the monthly distribution dat file (Carrington 7-column)
             # Wipe out the end_def_prin if there is a fmv
             # If fmv is greater than beg_bal, produce a negative write off in the dat file
+            
             for loan in loan_range:
                 # (1) Carrington Ln#
                 if is_empty(ws['A' + str(loan)].value) == False:
@@ -510,6 +512,7 @@ def scrub_carr():
 
             dat.close()
             print("Deal {} dat file created in the remit folder.".format(deal))
+            '''
 
             # Create net calc int for each loan
             # Repalce total_upb cell with total net interest
@@ -568,12 +571,12 @@ def scrub_carr():
             paste_hist_row(dist_date, hist_row2_string)
             print("Deal {} hist row pasted.".format(deal))
 
-            print("{.2f} seconds".format(time() - t0))
-        except:
-            print("Tried to process " + deal + " deal, but you might want to check it out.")
-            input("Please press Enter to continue ...")
-            print('')
-            continue
+            
+#        except:
+#            print("Tried to process " + deal + " deal, but you might want to check it out.")
+#            input("Please press Enter to continue ...")
+#            print('')
+#            continue
 
 
 if __name__ == '__main__':

@@ -72,8 +72,16 @@ url = [
         "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201733RT&doc=UMAC_201733RT_RMT",
         "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201734&doc=UMAC_201734_RMT",
         "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201734RT&doc=UMAC_201734RT_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20181&doc=SMLT_20181_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20181RT&doc=SMLT_20181RT_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201831&doc=UMAC_201831_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201831RT&doc=UMAC_201831RT_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201832&doc=UMAC_201832_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201832RT&doc=UMAC_201832RT_RMT",
         "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201833&doc=UMAC_201833_RMT",
         "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201833RT&doc=UMAC_201833RT_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201834&doc=UMAC_201834_RMT",
+        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201834RT&doc=UMAC_201834RT_RMT",
 
        # Shenghai's deal list
        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143&doc=SMLT_20143_RMT",
@@ -134,15 +142,15 @@ def user_input():
 
 def wells_scraper():
     # Very first outter exception handling. Ensure if script cannot find the link to download, go to the link
-    try:
+#    try:
         # Open the wells website with chrome driver
         driver.get(login_url)
-        username = driver.find_element_by_id("userId")
+        username = driver.find_element_by_id("user_id")
         password = driver.find_element_by_id("password")
         username.send_keys("brianfilips")
-        password.send_keys("Suite82218!")
-        login_attempt = driver.find_element_by_xpath("//*[@type='submit' and @name='btnSignon']")
-        login_attempt.submit()
+        password.send_keys("Suite82219^")
+        login_attempt = driver.find_element_by_xpath("//*[@id='loginButton']")
+        login_attempt.click()
 
         zip_ref_list = []
 
@@ -273,9 +281,9 @@ def wells_scraper():
                 zip_ref.close()
                 os.remove(zip_ref_list[k][0])
 
-    except:
-        print("SOMETHING WENT WRONG IN THE FIRST OUTER LAYER ERROR HANDLING")
-        pass
+#    except:
+#        print("SOMETHING WENT WRONG IN THE FIRST OUTER LAYER ERROR HANDLING")
+#        pass
 
 ###############################################################################
 

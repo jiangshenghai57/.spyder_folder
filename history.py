@@ -3612,3 +3612,1154 @@ help(class())
 help(class)
 help(os)
 runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+my_deals = {
+                # My deals
+                '2014-03': ('D:/deals/Carrington/SMAC/2014-03/', 'SMLT1403', 'A' ),
+                '2014-05': ('D:/deals/Carrington/SMAC/2014-05/', 'SMLT1405', 'A' ),
+                '2015-01': ('D:/deals/Carrington/SMAC/2015-01/', 'SMLT1501', 'A' ),
+                '2015-08': ('D:/deals/Carrington/SMAC/2015-08/', 'SMLT1508', 'PO'),
+                '2015-09': ('D:/deals/Carrington/SMAC/2015-09/', 'SMLT1509', 'PO'),
+                '2016-01': ('D:/deals/Carrington/SMAC/2016-01/', 'SMLT1601', 'PO'),
+                '2016-04': ('D:/deals/Carrington/SMAC/2016-04/', 'SMLT1604', 'PO'),
+                '2016-21': ('D:/deals/Carrington/SMAC/2016-21/', 'SMLT1621', 'A' ),
+                '2016-23': ('D:/deals/Carrington/SMAC/2016-23/', 'SMLT1623', 'A' ),
+                '2016-31': ('D:/deals/Carrington/SMAC/2016-31/', 'SMLT1631', 'A' ),
+                '2016-32': ('D:/deals/Carrington/SMAC/2016-32/', 'SMLT1632', 'A' ),
+                
+                #Brian's deals
+                '2013-20': ('D:/deals/Carrington/SMAC/2013-20/', 'SMLT1320', 'A' ),
+                '2013-21': ('D:/deals/Carrington/SMAC/2013-21/', 'SMLT1321', 'A' ),
+                '2014-01': ('D:/deals/Carrington/SMAC/2014-01/', 'SMLT1401', 'A' ),
+                '2014-04': ('D:/deals/Carrington/SMAC/2014-04/', 'SMLT1404', 'A' ),
+                '2015-03': ('D:/deals/Carrington/SMAC/2015-03/', 'SMLT1503', 'PO'),
+                '2015-04': ('D:/deals/Carrington/SMAC/2015-04/', 'SMLT1504', 'PO'),
+                '2015-05': ('D:/deals/Carrington/SMAC/2015-05/', 'SMLT1505', 'PO'),
+                '2015-07': ('D:/deals/Carrington/SMAC/2015-07/', 'SMLT1507', 'PO'),
+                '2016-05': ('D:/deals/Carrington/SMAC/2016-05/', 'SMLT1605', 'PO'),
+                '2016-06': ('D:/deals/Carrington/SMAC/2016-06/', 'SMLT1606', 'PO'),
+                '2016-07': ('D:/deals/Carrington/SMAC/2016-07/', 'SMLT1607', 'PO'),
+                '2016-08': ('D:/deals/Carrington/SMAC/2016-08/', 'SMLT1608', 'PO'),
+                '2016-09': ('D:/deals/Carrington/SMAC/2016-09/', 'SMLT1609', 'PO'),
+                '2016-10': ('D:/deals/Carrington/SMAC/2016-10/', 'SMLT1610', 'PO'),
+                '2016-11': ('D:/deals/Carrington/SMAC/2016-11/', 'SMLT1611', 'PO'),
+                '2016-12': ('D:/deals/Carrington/SMAC/2016-12/', 'SMLT1612', 'PO'),
+                '2017-01': ('D:/deals/Carrington/SMAC/2017-01/', 'SMLT1701', 'PO'),
+                '2017-02': ('D:/deals/Carrington/SMAC/2017-02/', 'SMLT1702', 'PO'),
+                '2017-03': ('D:/deals/Carrington/SMAC/2017-03/', 'SMLT1703', 'PO'),
+                '2017-04': ('D:/deals/Carrington/SMAC/2017-04/', 'SMLT1704', 'PO'),
+                '2017-05': ('D:/deals/Carrington/SMAC/2017-05/', 'SMLT1705', 'PO'),
+                '2017-06': ('D:/deals/Carrington/SMAC/2017-06/', 'SMLT1706', 'PO'),
+                '2017-09': ('D:/deals/Carrington/SMAC/2017-09/', 'SMLT1709', 'PO'),
+                '2017-21': ('D:/deals/Carrington/SMAC/2017-21/', 'SMLT1721', 'A' ),
+                '2017-31': ('D:/deals/Carrington/SMAC/2017-31/', 'UMLT1731', 'A' ),
+                '2017-32': ('D:/deals/Carrington/SMAC/2017-32/', 'UMLT1732', 'A' ),
+                '2017-33': ('D:/deals/Carrington/SMAC/2017-33/', 'UMLT1733', 'A' ),
+                '2017-34': ('D:/deals/Carrington/SMAC/2017-34/', 'UMLT1734', 'A' ),
+                }
+my_deals.keys()
+for key in my_deals.keys():
+    print(my_deals[deal][2])
+    
+for key in my_deals.keys():
+    print(my_deals[key][2])
+for key in my_deals.keys():
+    print(my_deals[key][1])
+for key in my_deals.keys():
+    print(my_deals[key][0])
+import os
+os.list('\\\etiserver\')
+os.list('\\\etiserver\\')
+os.listdir('\\\etiserver\\')
+os.listdir('\\etiserver\\')
+os.listdir('//etiserver/')
+os.listdir("\\\brian\\d:")
+os.listdir("\\brian\\d:")
+os.listdir("'\\'brian\\d:")
+os.listdir(r"\\brian\\d:")
+os.listdir(r"\brian\d:")
+'\\\\etiserver\\etishare'
+os.listdir('\\\\server\\etishare')
+os.listdir('\\\\etiserver\\etishare')
+os.listdir('\\\\etiserver')
+os.listdir('\\\\etiserver\')
+os.listdir('\\\\etiserver\\')
+os.listdir('\\\\etiserver\\etishare')
+import socket
+socket.gethostbyname(socket.gethostname())
+abs(-123123)
+my_deals
+all(my_deals)
+all(my_deals.keys())
+any(my_deals)
+ascii('a')
+ascii(132)
+help(repr())
+help(repr)
+bin(234)
+bool(True)
+bool(False)
+bool(1)
+bool(0)
+bool(3)
+bool(2)
+bool(0)
+dir()
+del socket
+dir()
+key
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+enumerate(seasons)
+list(enumerate(seasons))
+seasons_list = list(enumerate(seasons))
+for season in seasons_list:
+    list(season)
+    
+seasons_list
+for season in seas_list:
+    print(season)
+    
+for season in season_list:
+    print(season)
+for season in seasons_list:
+    print(season)
+globals()
+del seasons
+del season
+del seasons_list
+memoryview()
+hash(my_deals)
+help(cmp)
+tup = (1, 2, 30
+tup = (1, 2, 3)
+list(tup)
+tup
+tup = list(tup)
+tup
+str(tup)
+tup = str(tup)
+tup.capitalize()
+tup.isalnum()
+tup.isdigit()
+tup.isnumeric()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Fri Jun  1 11:18:00 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import numpy as np
+range(0, 100)
+list(range(0, 100))
+list(range(0, 10))
+np.arange(0, 10)
+list(range(10, -1))
+list(range(0, 10, -1))
+range(9, -1, -1)
+list(range(9, -1, -1))
+np.arange(9, -1, -1)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Tue Jun  5 17:33:51 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_BSI.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_RM.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Wed Jun  6 15:47:50 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Mon Jun 11 09:22:38 2018)---
+import requests
+requests.__version__
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Tue Jun 12 16:14:20 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/amortization_sched_template.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+from datetime import datetime
+datatime.now
+datetime.now
+year = datetime.now
+year.now()
+year
+year.today()
+from datetime import date
+date.today()
+year = date.today()
+year
+string(year)
+str(year)
+year
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+help(date)
+from calendar import monthrange
+monthrange(2018, 1)
+monthrange(2018, 1)[1]
+type(monthrange(2018, 1)[1])
+monthrange(2020, 2)
+str(date.today())[5:7]
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+import os
+os.listdir()
+help(os)
+os.walk()
+os.walk("c:/")
+tree = os.walk("c:/")
+tree
+print(tree)
+
+help(os.walk)
+
+## ---(Wed Jun 13 15:24:28 2018)---
+import os
+help(os)
+os.lisdir("c:/")
+os.listdir("c:/")
+os.listdir("c:/users/")
+os.listdir("c:/users/shenghai.etidomain/")
+dir_list = next(os.walk('.'))[1]
+dir_list
+dir_list = next(os.walk('.'))
+dir_list
+dir_list = next(os.walk('c:/'))
+dir_list
+start = "C:/"
+for dirpath, dirnames, filenames in os.walk(start):
+    for filename in filenames:
+        if filename == "Downloads":
+            filename = os.path.join(dirpath, filename)
+            print(filename)
+            print(dirpath)
+            
+import os
+os.listdir("C:\\users\\shenghai.etidomain\downloads\\")
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Wed Jun 13 17:32:54 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Wed Jun 13 17:45:33 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Wed Jun 13 17:50:48 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Wed Jun 13 17:56:02 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Jun 14 09:18:15 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Jun 14 09:54:57 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+float(".")
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+string = '3243234'
+string.isnumeric
+string.isnumeric()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Jun 14 10:24:38 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+string = '3243.234'
+string.isdecimal()
+string.isnumeric()
+string.isdigit()
+num = 123123.123
+isinstance(num, float)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+12 != 12
+string
+string != "3243.234"
+string == "3243.234"
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Jun 14 11:04:21 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Jun 14 11:45:00 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+from datetime import datetime
+from threading import Timer
+x = datetime.today()
+x
+str(x)
+x
+x = datetime.today()
+x
+import schedule
+import time
+def job():
+    pirnt('I am working')
+    
+schedule.every(5).seconds.do(job)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+import sched, time
+s = sched.scheduler(time.time, time.sleep)
+def print_some_times():
+    print(time.time())
+    s.enter(10, 1, print_time)
+    s.enter(5, 2, print_time, argument=('positional',))
+    s.enter(5, 1, print_time, kwargs={'a': 'keywork'})
+    s.run()
+    print(time.time())
+    
+print_some_times()
+print_some_times() def print_time(a='default'):
+...     print("From print_time", time.time(), a)
+def print_time(a='default'):
+...     print("From print_time", time.time(), a)
+print_some_times()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Fri Jun 15 15:03:26 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_BSI.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_RM.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import this
+help(namespace)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Tue Jun 19 10:04:26 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/First_Midwest_Bank/fmb_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/First_Midwest_Bank')
+def make_incrementor(n):
+    return lambda x: x + n
+
+f = make_incrementor(42)
+f(0)
+f(123)
+f
+f(0)
+f
+def make_incrementor(n):
+    """ Function documentatinon
+    
+    """
+    pass
+
+    return lambda x: x + n
+make_incrementor.__doc__
+%quickref
+%history
+%%time
+
+%time
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_scrub/sofi_remit_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_scrub')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_scrub/sofi_remit_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/SoFi_scrub')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carrington_remit_files_scrub.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Wed Jun 20 14:34:10 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import shutil
+shutil.copyfile
+help(shutil.copyfile)
+deal_name
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Wed Jun 20 17:56:56 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+hist_row
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+ws_col.index('Ending Def Prin')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Fri Jun 22 09:23:09 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+bool(1)
+bool(0)
+callable()
+callable(1)
+chr(123)
+chr(89)
+chr(45)
+chr(423)
+chr(12)
+chr(34)
+chr(89)
+chr(97)
+ord("z)")
+ord("z")
+ord('$')
+chr(35
+)
+chr(34
+
+)
+chr(40
+
+)
+def greet(name):
+    def get_message():
+        return "Hello "
+
+    result = get_message()+name
+    return result
+print(greet("Haisan"))
+def get_text(name):
+   return "lorem ipsum, {0} dolor sit amet".format(name)
+
+def p_decorate(func):
+   def func_wrapper(name):
+       return "<p>{0}</p>".format(func(name))
+   return func_wrapper
+
+my_get_text = p_decorate(get_text)
+
+print my_get_text("John")
+def get_text(name):
+   return "lorem ipsum, {0} dolor sit amet".format(name)
+
+def p_decorate(func):
+   def func_wrapper(name):
+       return "<p>{0}</p>".format(func(name))
+   return func_wrapper
+my_get_text = p_decorate(get_text)
+print(my_get_text('Haisan'))
+def p_decorate(func):
+   def func_wrapper(name):
+       return "<p>{0}</p>".format(func(name))
+   return func_wrapper
+@p_decorate
+def get_text(name):
+    return "lorem ipsum, {0} dolor sit amet".format(name)
+print(get_text('Haisan))
+print(get_text('Haisan"))
+print(get_text('Haisan'))
+def p_decorate(func):
+   def func_wrapper(self):
+       return "<p>{0}</p>".format(func(self))
+   return func_wrapper
+class Person(object):
+    def __init__(self):
+        self.name = "John"
+        self.family = "Doe"
+        
+class Person(object):
+    def __init__(self):
+        self.name = "John"
+        self.family = "Doe"
+    @p_decorate
+    def get_fullname(self):
+        return self.name + " " + self.family
+my_person = Person()
+my_person.get_fullname
+my_person.get_fullname()
+def p_decorate(func):
+   def func_wrapper(*args, **kwargs):
+       return "<p>{0}</p>".format(func(*args, **kwargs))
+   return func_wrapper
+class Person(object):
+    def __init__(self):
+        self.name = "John"
+        self.family = "Doe"
+    @p_decorate
+    def get_fullname(self):
+        return self.name + " " + self.family
+my_person = Person()
+my_person.get_fullname()
+"{0}{1}{0}".format("zero", "one")
+print('testing testing %s', "testing")
+print('testing testing @s', "testing")
+print('testing testing *s', "testing")
+print('testing testing %s', %"testing")
+print('testing testing %s', %("testing"))
+complex(12)
+dict()
+dict({'stirng': "stringvalue", "string2": "stringvalue2"}
+
+dict({'stirng': "stringvalue", "string2": "stringvalue2"})
+dir()
+divmod(12, 11)
+divmod(123213, 12)
+list(divmod(123213, 12))
+tuple(divmod(123213, 12))
+inf
+globals()
+my_deals
+id(12)
+input()
+locals()
+scrub_car()
+exit
+object
+pow(2, 2)
+pow(2, 123123)
+pow(2, 123)
+pow(2, 1234)
+vars(23)
+False
+True
+None
+NotImplemented
+ß
+ord('ß')
+chr(224)
+(chr(223)).casefold()
+(chr(222)).casefold()
+for i in range(0, 1000):
+    print(chr(i))
+    
+"ss".casefold()
+(chr(225)).casefold()
+(chr(225))
+'python'.find('py')
+test_list = [123, 123, 32]
+test_list.index(123)
+test_list.index(32)
+release()
+import re
+re.purge()
+help(re.search)
+re.search("10", "11000010010011100010101010000111101010100011110001000")
+match = re.search("10", "11000010010011100010101010000111101010100011110001000")
+if mathc:
+    process(match)
+if match:
+    process(match)
+if match:
+    print(match)
+int(match)
+import StreamWriter
+import struct
+help(struct)
+import codecs
+help(codecs)
+codecs.StreamWriter("d:/deals/")
+import datetime
+help(datetime)
+datetime.timezone
+datetime.timezone()
+help(datetime.timezone())
+help(datetime.timezone)
+datetime.minyear
+datetime.datetime.minyear
+help(datetime)
+datetime.datetime.date
+str(datetime.datetime.date)
+today_date = datetime.datetime.date
+today_date
+str(today_date)
+today_date = datetime.datetime.date(2018, 6, 22)
+today_date = datetime.datetime.date.year
+today_date.year()
+datetime.date
+todays_date = datetime.date
+todays_date
+todays_date = datetime.date()
+todays_date = datetime.date(2018)
+datetime.date(2018, 6, 22)
+date.today()
+datetimedate.today()
+datetime.date.today()
+str(datetime.date.today())
+import heapq
+help(heapq
+)
+heapify()
+import heapq
+heapq.heapify()
+heapq.heapify(1)
+heapq.heapify([1])
+import math
+math.factoral(12)
+math.factorial(12)
+math.factorial(5)
+import random
+random.seed()
+seed = random.seed()
+seed
+print(seed)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+def my_gen():
+    n = 1
+    yield n
+    n += 1
+    yield n
+    n += 2
+    yield n
+my_gen()
+a = my_gen()
+a
+next(a)
+def my_gen():
+    n = 1
+    yield n
+    n += 1
+    yield n
+    n += 1
+    yield n
+a = my_gen()
+next(a)
+for thing in my_gen():
+    print(thing)
+    
+def all_even():
+    n = 0
+    while True:
+        yield n
+        n += 2
+even = all_even()
+next(even)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+2+1
+_
+print(_)
+import pdb
+help(pdb)
+dir()
+user_input
+thing
+test = ['I', 'Like', 'Python', 'automation']
+print (''.join(test))
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+x = 10 if y == 9 else 20
+y = 0
+x = 10 if y == 9 else 20
+x
+return x = 10 if y == 9 else 20
+return (x = 10) if y == 9 else 20
+return x if y == 9 else 20
+(return x) if y == 9 else 20
+dir
+dri()
+dir()
+sys.getsizeof(find_stop_row)
+sys.getsizeof(scrub_carr)
+sys.getsizeof(pd)
+sys.getsizeof(thing)
+dir()
+dir(scrub_carr)
+67 * 67
+67 ** 67
+100 * 100
+100 ** 100
+len(100 ** 100)
+len(str(100 ** 100))
+bool(1)
+bool(1.2)
+bool(0.00)
+bool(0)
+a, b = 0, 1
+while b < 10:
+    print(b)
+    a, b = b, a + b
+while b < 100:
+    print(b)
+    a, b = b, a + b
+a, b = 0, 1
+while b < 100:
+    print(b)
+    a, b = b, a + b
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+from itertools import combinations
+help(combinations)
+print(*('H',))
+print(*[('H',)])
+print(**[('H',)])
+print(*[('H',)])
+help(enumerate)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/hackerrank_python_Collections.Counter.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/hackerrank_python_Collections.Counter.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/hackerrank_python_Collections.Counter.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/hackerrank_python_Collections.Counter.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/hackerrank_python_Collections.Counter.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+import calendar
+print calendar.TextCalendar(firstweekday=6).formatyear(2018)
+print (calendar.TextCalendar(firstweekday=6).formatyear(2018))
+cal = calendar.TextCalendar(firstweekday=6).formatyear(2018)
+cal
+print (calendar.TextCalendar(firstweekday=6).formatyear(2018))
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+test
+del test
+del test_list
+del thing
+del tot_money
+del x
+ del y
+dle pdb
+del i
+del key
+del my_gen
+dir)(
+dir()
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+class MyClass:
+    ''' Just an example of the class do'''
+    
+my_class = MyClass()
+my_class.__doc__
+class MyClass:
+    ''' Just an example of what the class does'''
+my_class.__doc__
+my_class = MyClass()
+my_class.__doc__
+class MyClass:
+    ''' Just an example of what the class does'''
+    i = 12345
+    def f(sefl):
+        return 'Hello, World!'
+    
+my_class = MyClass()
+my_class.__doc__
+my_class.f()
+my_class.i
+my_class.i = 123456
+my_class = MyClass()
+my_class.i = 123456
+my_class2 = MyClass()
+my_class2.i
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+misc_class_module.__doc__
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import misc_class_module
+misc_class_module.__doc__
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+misc_class_module.__doc__
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import create_mod
+dir()
+create_mod.__doc__
+dist_date
+copyfile
+pd
+user_input
+xlrd
+del MyClass
+dir()
+del last_mon
+del user_input
+datetime.today()
+next_pya
+next_pay
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+os
+os.list("\\\brian")
+os.listdri("\\\brian")
+os.listdir("\\\brian")
+os.listdir(r"\\brian")
+os.listdir(r"\brian")
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+os.getcwd()
+import glob
+help(glob)
+from urllib import *
+help(urllib)
+import urllib
+help(urllib)
+urllib.request
+help(repr())
+help(repr)
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+ws_col[0]
+ws_col
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/misc_class_module.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+def diff_month(d1, d2):
+            return (d1.year - d2.year) * 12 + d1.month - d2.month
+
+diff_month("01/01/2000", "01/01/2000")
+d1 = "01/01/20001"
+                d1 = datetime(int(d1[0:4]), int(d1[5:7]), int(d1[8:10]))
+                d2 = "01/01/20001"
+                d2 = datetime(int(d2[0:4]), int(d2[5:7]), int(d2[8:10]))
+d1 = "01/01/20001"
+d1 = datetime(int(d1[0:4]), int(d1[5:7]), int(d1[8:10]))
+d2 = "01/01/20001"
+d2 = datetime(int(d2[0:4]), int(d2[5:7]), int(d2[8:10]))
+d1 = "01/01/2001"
+d1 = datetime(int(d1[0:4]), int(d1[5:7]), int(d1[8:10]))
+d2 = "01/01/2001"
+d2 = datetime(int(d2[0:4]), int(d2[5:7]), int(d2[8:10]))
+d1 = "2001/01/01"
+d1 = datetime(int(d1[0:4]), int(d1[5:7]), int(d1[8:10]))
+d2 = "2001/01/01"
+d2 = datetime(int(d2[0:4]), int(d2[5:7]), int(d2[8:10]))
+diff_month(d1, d2)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Fri Jul  6 10:32:32 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+dir()
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import math
+math.floor(127.4)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Thu Jul 12 14:50:55 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+from calendar import weekday
+week(2018, 7, 12)
+weekday(2018, 7, 12)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+math.nan(nan)
+math.nan("NaN")
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit()
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+weekday(2018,8,25)
+from calendar import weekday
+weekday(2018,8,25)
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit()
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+for key in citi_dict.keys():                  
+
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+license
+copyright
+credits
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+dri
+dir
+dri
+dir()
+get_ipython
+ipython
+quit
+help()
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+exit
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/misc_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm/citiyymm.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/citiyymm')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/shenghai_wells_stmts_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+sys
+print(sys.executable)
+os
+print(sys.path)
+for path in sys.path:
+    print(path)
+    
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+exit
+exit
+
+## ---(Thu Jul 19 10:43:28 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Mon Jul 23 16:26:01 2018)---
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/create_mod.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+debugfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Wed Jul 25 14:37:08 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Thu Aug  2 11:40:51 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+
+## ---(Tue Aug  7 15:14:09 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+
+## ---(Tue Aug  7 15:31:43 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_BSI.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/NMLT_15_01_RM.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+
+## ---(Fri Aug 10 11:22:15 2018)---
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import pandas as pd
+pd.__version__
+pd.doc
+pd.__doc__
+
+## ---(Mon Aug 13 16:05:45 2018)---
+import pandas as pd
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import pandas as pd
+pd.__version__
+pd.__doc__
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper/libor_scraper.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/libor_scraper')
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2/carr_remit_scrub_v2.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/carr_remti_files_scrub_v2')
+import win32com.client as win32
+excel = win32.gencache.EnsureDispatch('Excel.Application')
+exce.visible = True
+excel.visible = True
+excel
+dir()
+_ = input("Press ENter to quit >>>")
+excel
+excel.visible
+runfile('C:/Users/Shenghai.ETIDOMAIN/.spyder-py3/wells_stmts_scraper_agg.py', wdir='C:/Users/Shenghai.ETIDOMAIN/.spyder-py3')
