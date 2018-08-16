@@ -84,30 +84,38 @@ url = [
 #        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201733RT&doc=UMAC_201733RT_RMT",
 #        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201734&doc=UMAC_201734_RMT",
 #        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201734RT&doc=UMAC_201734RT_RMT",
+#		  "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20181&doc=SMLT_20181_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20181RT&doc=SMLT_20181RT_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201831&doc=UMAC_201831_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201831RT&doc=UMAC_201831RT_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201832&doc=UMAC_201832_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201832RT&doc=UMAC_201832RT_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201833&doc=UMAC_201833_RMT",
+#        "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201833RT&doc=UMAC_201833RT_RMT",
 
        # Shenghai's deal list
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143&doc=SMLT_20143_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143RT&doc=SMLT_20143RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20145&doc=SMLT_20145_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20145RT&doc=SMLT_20145RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20151&doc=SMLT_20151_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20151RT&doc=SMLT_20151RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20158&doc=SMLT_20158_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20158RT&doc=SMLT_20158RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20159&doc=SMLT_20159_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20159RT&doc=SMLT_20159RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20161&doc=SMLT_20161_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20161RT&doc=SMLT_20161RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20164&doc=SMLT_20164_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20164RT&doc=SMLT_20164RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201621&doc=SMLT_201621_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201621RT&doc=SMLT_201621RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201623&doc=SMLT_201623_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201623RT&doc=SMLT_201623RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201631&doc=UMAC_201631_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201631RT&doc=UMAC_201631RT_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201632&doc=UMAC_201632_RMT",
-       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201632RT&doc=UMAC_201632RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143&doc=SMLT_20143_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20143RT&doc=SMLT_20143RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20145&doc=SMLT_20145_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20145RT&doc=SMLT_20145RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20151&doc=SMLT_20151_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20151RT&doc=SMLT_20151RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20158&doc=SMLT_20158_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20158RT&doc=SMLT_20158RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20159&doc=SMLT_20159_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20159RT&doc=SMLT_20159RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20161&doc=SMLT_20161_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20161RT&doc=SMLT_20161RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20164&doc=SMLT_20164_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=20164RT&doc=SMLT_20164RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201621&doc=SMLT_201621_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201621RT&doc=SMLT_201621RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201623&doc=SMLT_201623_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=SMLT&seriesId=201623RT&doc=SMLT_201623RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201631&doc=UMAC_201631_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201631RT&doc=UMAC_201631RT_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201632&doc=UMAC_201632_RMT",
+#       "https://www.ctslink.com/a/history.html?shelfId=UMAC&seriesId=201632RT&doc=UMAC_201632RT_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=NMLT&seriesId=20151&doc=NMLT_20151_RMT",
        "https://www.ctslink.com/a/history.html?shelfId=NMLT&seriesId=20151RT&doc=NMLT_20151RT_RMT",
     ]
@@ -149,12 +157,12 @@ def wells_scraper():
     try:
         # Open the wells website with chrome driver
         driver.get(login_url)
-        username = driver.find_element_by_id("userId")
+        username = driver.find_element_by_id("user_id")
         password = driver.find_element_by_id("password")
         username.send_keys("brianfilips")
-        password.send_keys("Suite82218!")
-        login_attempt = driver.find_element_by_xpath("//*[@type='submit' and @name='btnSignon']")
-        login_attempt.submit()
+        password.send_keys("Suite82218^")
+        login_attempt = driver.find_element_by_xpath("//*[@id='loginButton']")
+        login_attempt.click()
 
         zip_ref_list = []
 

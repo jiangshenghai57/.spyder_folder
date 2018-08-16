@@ -66,7 +66,7 @@ def is_empty(any_structure):
 # More features could be add in to ask user                                                             #
 #########################################################################################################
 global dist_date
-dist_date = "1804"
+dist_date = "1807"
 def user_input():
     print("What period would you like to roll the payment for Normandy \n" + 
           "If you want a specific month and year, \n")

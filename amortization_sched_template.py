@@ -26,12 +26,12 @@ import pandas as pd
 import numpy as np
 from datetime import date
 
-wac = 0.0988
-years = 7
+wac = 0.1374
+years = 15
 payments_year = 12
-principal = 850005960.82
-closing_date = (date(2018, 2, 2))
-start_date = (date(2018, 3, 1))
+principal = 144659834.51
+closing_date = (date(2018, 5, 24))
+start_date = (date(2018, 6, 15))
 init_int_prd = 30
 yr_convent = 360
 mo_convent = 30
@@ -106,7 +106,7 @@ for i in np.arange(cap_period):
         df = df.drop(i)
 
 print(df)
-`
+
 
 if float(df['Balance'].iloc[-ONE]) != ZERO_F:
     print("WARNING, the bond does not pay down to zero, the end bal is %d", df['Balance'].iloc[-ONE])
